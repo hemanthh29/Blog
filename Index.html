@@ -39,38 +39,44 @@
 <body>
     <div id="SectionHome">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color:#2F4F4F;">
-            <a class="navbar-brand d-flex flex-row" href="#">
+            <a class="navbar-brand d-flex flex-row mb-1" href="#">
                 <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718566487/WhatsApp_Image_2024-06-17_at_01.03.28_79d20135_hea9k5.jpg"
-                    class="Nav-Logo" />
+                class="Nav-Logo" />
                 <h1 class="Nav-Logo-Title ml-2 mt-1 ml-2">
                     Horizon Wanderer
                 </h1>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            <button class="navbar-toggler mb-1" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
                 style="outline:none !important" ;>
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
+                    <li class = "nav-item">
+                        <nav class="navbar navbar-dark dropdown p-0" style="background-color:#2F4F4F;">
+                            <form id = "SearchBar" class="form-inline">
+                            <div class = "d-flex flex-row">
+                              <input class="form-control mr-2" type="search" placeholder="Search Here" aria-label="Search">
+                              <button class="btn btn-outline-light " type="submit">Search</button>
+                              </div>
+                            </form>
+                          </nav>
+                    </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Navigate To Blog
+                            More
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">About Us</a>
+                            <a class="dropdown-item" href="#">Contact</a>
                         </div>
                     </li>
                     <li class="nav-item active">
@@ -82,7 +88,7 @@
                 </ul>
             </div>
         </nav>
-        <div class="Background-Container-Sm d-flex align-items-center">
+        <div class="Background-Image-Container d-lg-none d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -99,7 +105,27 @@
                 </div>
             </div>
         </div>
-        <div class="fluid-container p-4">
+        <div class = "Video-Container d-none d-lg-block">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe id = #Video class="embed-responsive-item" width="100%" height="100%" src="https://www.youtube.com/embed/Wcd6r97fOgo?autoplay=1&mute=1&controls=0&loop=1&playlist=Wcd6r97fOgo" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+              </div>
+            <div class="container Video-Text d-flex align-items-center justify-content-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="BG-Container-Heading">
+                            Wander. Seek. Experience.   
+                        </h1>
+                        <p class="BG-Container-Description mt-3 text-center">
+                            Wander where the 'WIFI' is weak
+                        </p>
+                        <button class="BG-Container-Button mt-3 text-center">
+                            Start Exploring
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container p-4">
             <div class="row">
                 <div class="col-12 d-flex flex-row mt-5">
                     <hr class="mt-4" />
@@ -108,7 +134,7 @@
                     </h1>
                     <hr class="mt-4" />
                 </div>
-                <div class="col-12 mt-3">
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
                     <div class="Card-Container shadow">
                         <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718568953/kunal-kalra-1OWl1_gtCZw-unsplash_rmvt18.jpg"
                             class="Card-Image" />
@@ -122,7 +148,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 mt-3">
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
                     <div class="Card-Container shadow">
                         <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718572538/sourabh-shrikant-nilakhe-sYrTr4w42Pk-unsplash_sgiajt.jpg"
                             class="Card-Image" />
@@ -138,7 +164,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 mt-3">
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
                     <div class="Card-Container shadow">
                         <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718573359/ksp_5760_n4mqj0.jpg"
                             class="Card-Image" />
@@ -148,6 +174,111 @@
                         <p class="Card-Paragraph pl-3 pr-3 pb-2">
                             Experience the spiritual heart of India in Varanasi, where ancient rituals on the Ganges
                             River unfold against a backdrop of historic temples.
+                            <a href="#" style="color:#008080">Read
+                                More...</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                    <div class="Card-Container shadow">
+                        <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718600027/10899393544_9be81b9df9_k_cred1o.webp"
+                            class="Card-Image" />
+                        <h1 class="Card-Heading pl-3 pt-4">
+                            Adventure in Ladakh: Land of High Passes
+                        </h1>
+                        <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                            Embark on an adventure in Ladakh, exploring its rugged terrain, Buddhist monasteries, and
+                            breathtaking Himalayan landscapes.
+                            <a href="#" style="color:#008080">Read
+                                More...</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                    <div class="Card-Container shadow">
+                        <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718602094/istockphoto-1433185911-612x612_wkf4oe.jpg"
+                            class="Card-Image" />
+                        <h1 class="Card-Heading pl-3 pt-4">
+                            Cultural Melting Pot: Mumbai
+                        </h1>
+                        <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                            Dive into the vibrant culture of Mumbai, with its Bollywood glamour, colonial architecture,
+                            and bustling street markets.
+                            <a href="#" style="color:#008080">Read
+                                More...</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                    <div class="Card-Container shadow">
+                        <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718602382/Ranthambore-768x512_k93s6s.jpg"
+                            class="Card-Image" />
+                        <h1 class="Card-Heading pl-3 pt-4">
+                            Wildlife Safari in Ranthambore
+                        </h1>
+                        <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                            Go on a wildlife safari in Ranthambore National Park, home to majestic Bengal tigers and
+                            diverse wildlife amidst ancient ruins.
+                            <a href="#" style="color:#008080">Read
+                                More...</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                    <div class="Card-Container shadow">
+                        <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718608756/licensed-image_jytmbo.jpg"
+                            class="Card-Image" />
+                        <h1 class="Card-Heading pl-3 pt-4">
+                            Serenity in the Himalayas: Himachal Pradesh
+                        </h1>
+                        <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                            Seek serenity in Himachal Pradesh's hill stations like Manali and Shimla, surrounded by
+                            snow-capped peaks and lush valleys.
+                            <a href="#" style="color:#008080">Read
+                                More...</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                    <div class="Card-Container shadow">
+                        <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718607810/Mehrangarh-Fort_600-1280x720-1-2_xuw2wl.jpg"
+                            class="Card-Image" />
+                        <h1 class="Card-Heading pl-3 pt-4">
+                            Cultural Riches of Rajasthan
+                        </h1>
+                        <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                            Immerse yourself in the cultural riches of Rajasthan, exploring its grand palaces, colorful
+                            festivals, and desert landscapes.
+                            <a href="#" style="color:#008080">Read
+                                More...</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                    <div class="Card-Container shadow">
+                        <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718608059/nature-landscape-view-beautiful-tropical-beach-sea-sunny-day-beach-sea-spa-generative-ai_1259709-476_yudph0.jpg"
+                            class="Card-Image" />
+                        <h1 class="Card-Heading pl-3 pt-4">
+                            Beaches of Goa
+                        </h1>
+                        <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                            Relax on the sun-kissed beaches of Goa, known for its Portuguese heritage, lively nightlife,
+                            and fresh seafood.
+                            <a href="#" style="color:#008080">Read
+                                More...</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                    <div class="Card-Container shadow">
+                        <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718608519/virupaksha-6c15785977c1436_1_us8dj6.jpg"
+                            class="Card-Image" />
+                        <h1 class="Card-Heading pl-3 pt-4">
+                            Historical Splendor: Hampi
+                        </h1>
+                        <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                            Step back in time in Hampi, a UNESCO World Heritage site renowned for its ancient temples,
+                            majestic ruins, and rich history.
                             <a href="#" style="color:#008080">Read
                                 More...</a>
                         </p>
