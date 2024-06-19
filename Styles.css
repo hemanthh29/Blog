@@ -70,6 +70,13 @@ hr{
     color:#696969;
     font-size:16px;
 }
+.Card-Date{
+    color:#008080;
+    font-size:10px;
+}
+.Card-Bold{
+    font-weight:bold;
+}
 .Video-Container{
     position:relative;
     height:100vh;
