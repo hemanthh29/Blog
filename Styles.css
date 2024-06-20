@@ -93,29 +93,6 @@ hr {
     font-weight: bold;
 }
 
-.Video-Container {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-}
-
-#Video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    pointer-events: none;
-}
-
-.Video-Text {
-    z-index: 100;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-}
 .Footer-Section{
     background-color: #2E8B8B;
     height: 100%;
