@@ -1,100 +1,148 @@
-body{
-    margin:0;
+body {
+    margin: 0;
 }
-.Background-Image-Container{
-    background-image:url("https://res.cloudinary.com/doxjkpn5a/image/upload/v1718534587/BG-SM_ptd1xc.jpg");
-    background-size:cover;
-    height:100vh;
+
+.Background-Image-Container {
+    background-image: url("https://res.cloudinary.com/doxjkpn5a/image/upload/v1718534587/BG-SM_ptd1xc.jpg");
+    background-size: cover;
+    height: 100vh;
 }
-.Nav-Logo{
-    height:34.5px;
-    border-radius:12px;
+
+.Nav-Logo {
+    height: 34.5px;
+    border-radius: 12px;
 }
-.Nav-Logo-Title{
-    font-family:"Bree Serif", serif;
-    color:#ffffff;
-    font-size:20px;
-    font-weight:bold;
-}
-.BG-Container-Heading{
-    font-family:"Roboto", serif;
-    color:#ffffff;
-    font-weight:bold;
-    font-size:50px;
-}
-.BG-Container-Description{
-    font-family:"Roboto", serif;
-    color:#ffffff;
-    font-size:18px;
-}
-.BG-Container-Button{
-    background-color:transparent;
-    color:#ffffff;
-    border-style:solid;
-    border-width:2px;
-    border-color:#ffffff;
-    height:50px;
-    width:140px;
-    font-size:18px;
-    outline: none !important;
-    transition:background-color 0.6s ease;
-}
-.BG-Container-Button:hover{
-    background-color:#8f8f8f;
-}
-.Featured-Blogs-Heading{
+
+.Nav-Logo-Title {
     font-family: "Bree Serif", serif;
-    color:#008080;
-    font-weight:bold;
-    font-size:34px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
 }
-hr{
-    border-width:3px;
-    width:30%; 
+
+.BG-Container-Heading {
+    font-family: "Roboto", serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 50px;
 }
-.Card-Container{
+
+.BG-Container-Description {
+    font-family: "Roboto", serif;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.BG-Container-Button {
+    background-color: transparent;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    height: 50px;
+    width: 140px;
+    font-size: 18px;
+    outline: none !important;
+    transition: background-color 0.6s ease;
+}
+
+.BG-Container-Button:hover {
+    background-color: #8f8f8f;
+}
+
+.Featured-Blogs-Heading {
+    font-family: "Bree Serif", serif;
+    color: #008080;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+hr {
+    border-width: 3px;
+    width: 30%;
+}
+
+.Card-Container {
     background-color: #E8E8E8;
-    height:98%;
+    height: 98%;
 }
-.Card-Heading{
-    font-family:("Bree Serif", serif);
-    font-weight:bold;
-    color: #006666 ;
-    font-size:24px;
+
+.Card-Heading {
+    font-family: ("Bree Serif", serif);
+    font-weight: bold;
+    color: #006666;
+    font-size: 24px;
 }
-.Card-Image{
-    width:100%;
+
+.Card-Image {
+    width: 100%;
 }
-.Card-Paragraph{
-    font-family:"Roboto",   serif;
-    color:#696969;
-    font-size:16px;
+
+.Card-Paragraph {
+    font-family: "Roboto", serif;
+    color: #696969;
+    font-size: 16px;
 }
-.Card-Date{
-    color:#008080;
-    font-size:10px;
+
+.Card-Date {
+    color: #008080;
+    font-size: 10px;
 }
-.Card-Bold{
-    font-weight:bold;
+
+.Card-Bold {
+    font-weight: bold;
 }
-.Video-Container{
-    position:relative;
-    height:100vh;
-    overflow:hidden;
+
+.Video-Container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
-#Video{
-    position:absolute;
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    pointer-events: none; 
-}
-.Video-Text{
-    z-index:100;
-    position:absolute;
+
+#Video {
+    position: absolute;
     width: 100%;
     height: 100%;
-    top:0;
-    left:0;
-    right:0;
+    object-fit: cover;
+    pointer-events: none;
 }
+
+.Video-Text {
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.Footer-Section{
+    background-color: #2E8B8B;
+    height: 100%;
+}
+.Footer-Heading{
+    font-family:"Bree Serif", serif;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}
+.Footer-Paragraph{
+    font-family:"Roboto", serif;
+    color:#D3D3D3;
+    font-size:10px;
+}
+.Footer-Icons{
+    color:#ffffff ;
+}
+.Footer-Card{
+    background-color:#F0F8FF;
+}
+.Footer-Card-Heading{
+    font-family:"Bree Serif", serif;
+    color:#333333;
+    font-size:18px;
+}
+.Footer-HR{
+    background-color:#ffffff;
+    width:100%
+}   
