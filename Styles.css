@@ -7,7 +7,9 @@ body {
     background-size: cover;
     height: 100vh;
 }
-
+.navbar{
+    background-color:#2F4F4F;
+}
 .Nav-Logo {
     height: 34.5px;
     border-radius: 12px;
@@ -64,7 +66,7 @@ hr {
 
 .Card-Container {
     background-color: #E8E8E8;
-    height: 98%;
+    height: 100%;
 }
 
 .Card-Heading {
@@ -84,6 +86,13 @@ hr {
     font-size: 16px;
 }
 
+.Card-Paragraph-2{
+    font-family: "Roboto", serif;
+    color: #696969;
+    font-size: 18px;
+    font-weight:bold;
+
+}
 .Card-Date {
     color: #008080;
     font-size: 10px;
