@@ -1,0 +1,26 @@
+document.querySelector(".Comment-Form").addEventListener("submit",function(event){
+    event.preventDefault();
+const NewName = document.getElementById("Blog-Comment-Name").value;
+const NewEmail = document.getElementById("Blog-Comment-Email").value;
+const NewComment = document.getElementById("Blog-Comment").value;
+const CommentContainer = document.getElementById("Comment-Container");
+const CommentElement = document.createElement("div");
+CommentElement.classList.add("Comment-Box","shadow","p-3");
+const MetaElement = document.createElement("div");
+MetaElement.classList.add("Comment-Meta");
+const NameElement = document.createElement("span");
+NameElement.innerText = NewName;
+const EmailElement = document.createElement("span");
+EmailElement.innerText = NewEmail;
+MetaElement.appendChild(NameElement);
+MetaElement.appendChild(EmailElement);
+const CommentTextElement = document.createElement("div");
+CommentTextElement.classList.add("Comment-Text");
+CommentTextElement.innerText =  NewComment;
+CommentElement.appendChild(MetaElement);
+CommentElement.appendChild(CommentTextElement);
+CommentContainer.appendChild(CommentElement);
+document.getElementById("Blog-Comment-Name").value = "";
+document.getElementById("Blog-Comment-Email").value = "";
+document.getElementById("Blog-Comment").value = "";
+});
