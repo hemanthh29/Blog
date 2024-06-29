@@ -36,6 +36,7 @@
         href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand d-flex flex-row mb-1" href="http://horizonwanderers.s3-website.ap-south-1.amazonaws.com"
@@ -53,35 +54,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <nav class="navbar navbar-dark p-0">
-                        <form id="SearchBar" class="form-inline">
-                            <div class="d-flex flex-row">
-                                <input class="form-control mr-2" type="search" placeholder="Search Here"
-                                    aria-label="Search">
-                                <button class="btn btn-outline-light " type="submit">Search</button>
-                            </div>
-                        </form>
-                    </nav>
-                </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="Blog.html">Blog</a>
                 </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        More
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">About Us</a>
-                        <a class="dropdown-item" href="#">Contact</a>
-                    </div>
-                </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="AboutUs.html">About Us</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Contact</a>
@@ -102,56 +82,112 @@
                 <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1719302215/Rohtang-Pass-Aerial-View_csxumk.jpg"
                     class="Blog-Image" />
             </div>
-            <div class="col-12">
+            <div class = "col-6">
                 <h1 class="Blog-Date mt-3">
                     Date of Publication: January 30, 2024
                 </h1>
+            </div>
+            <div class="col-6 d-flex flex-row justify-content-end">
+                <i class="fa-solid fa-share mt-3 Blog-Share-Icons"></i>
+                <h1 class="Blog-Share ml-2">
+                    SHARE
+                </h1>
+                <a href="#"><i class="fa-brands fa-facebook mt-3 ml-2 Blog-Share-Icons"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter mt-3 ml-2 Blog-Share-Icons"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest mt-3 ml-2 Blog-Share-Icons"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope mt-3 ml-2 Blog-Share-Icons"></i></a>
+            </div>
+            <div class="col-12">
                 <hr class="Blog-Line" />
                 <p class="Blog-Paragraph">
-                    Himachal Pradesh, nestled in the heart of the Himalayas, is a haven for those seeking serenity and natural beauty. This northern Indian state is renowned for its breathtaking landscapes, charming hill stations, and tranquil retreats. From the bustling streets of Shimla to the serene valleys of Manali, Himachal Pradesh offers an escape into a world of snow-capped peaks and lush greenery.
+                    Himachal Pradesh, nestled in the heart of the Himalayas, is a haven for those seeking serenity and
+                    natural beauty. This northern Indian state is renowned for its breathtaking landscapes, charming
+                    hill stations, and tranquil retreats. From the bustling streets of Shimla to the serene valleys of
+                    Manali, Himachal Pradesh offers an escape into a world of snow-capped peaks and lush greenery.
                 </p>
                 <h1 class="Blog-SideHeading">
                     Manali: A Paradise for Nature Lovers
                 </h1>
                 <p class="Blog-Paragraph">
-                    Manali, a picturesque town located in the Kullu Valley, is a popular destination for nature enthusiasts and adventure seekers. Surrounded by towering mountains and dense forests, Manali offers a variety of outdoor activities such as trekking, paragliding, and river rafting. The Solang Valley, just a short drive from Manali, is a hub for winter sports, offering skiing and snowboarding during the colder months.<br /><br />
-                    For a more relaxed experience, visit the hot springs at Vashisht Village, located just 6 kilometers from Manali. These natural springs are believed to have medicinal properties and provide a soothing experience amidst the cold mountain air. The village itself is a quaint retreat with ancient temples and charming guesthouses.
+                    Manali, a picturesque town located in the Kullu Valley, is a popular destination for nature
+                    enthusiasts and adventure seekers. Surrounded by towering mountains and dense forests, Manali offers
+                    a variety of outdoor activities such as trekking, paragliding, and river rafting. The Solang Valley,
+                    just a short drive from Manali, is a hub for winter sports, offering skiing and snowboarding during
+                    the colder months.<br /><br />
+                    For a more relaxed experience, visit the hot springs at Vashisht Village, located just 6 kilometers
+                    from Manali. These natural springs are believed to have medicinal properties and provide a soothing
+                    experience amidst the cold mountain air. The village itself is a quaint retreat with ancient temples
+                    and charming guesthouses.
                 </p>
                 <h1 class="Blog-SideHeading">
                     Shimla: The Queen of Hills
                 </h1>
                 <p class="Blog-Paragraph">
-                    Shimla, the capital city of Himachal Pradesh, is often referred to as the "Queen of Hills." This charming hill station, with its colonial-era architecture and bustling markets, offers a unique blend of old-world charm and modern conveniences. Take a leisurely walk along the Mall Road, lined with shops, cafes, and colonial buildings, and soak in the panoramic views of the surrounding hills.<br/><br/>
-                    One of Shimla's iconic landmarks is the Christ Church, a beautiful neo-Gothic structure built in the 19th century. The church, with its stained glass windows and peaceful ambiance, is a testament to the city's colonial past. Another must-visit is the Jakhoo Temple, dedicated to the Hindu deity Hanuman. Perched atop Jakhoo Hill, the temple offers stunning views of the Shivalik ranges and the town below.
+                    Shimla, the capital city of Himachal Pradesh, is often referred to as the "Queen of Hills." This
+                    charming hill station, with its colonial-era architecture and bustling markets, offers a unique
+                    blend of old-world charm and modern conveniences. Take a leisurely walk along the Mall Road, lined
+                    with shops, cafes, and colonial buildings, and soak in the panoramic views of the surrounding
+                    hills.<br /><br />
+                    One of Shimla's iconic landmarks is the Christ Church, a beautiful neo-Gothic structure built in the
+                    19th century. The church, with its stained glass windows and peaceful ambiance, is a testament to
+                    the city's colonial past. Another must-visit is the Jakhoo Temple, dedicated to the Hindu deity
+                    Hanuman. Perched atop Jakhoo Hill, the temple offers stunning views of the Shivalik ranges and the
+                    town below.
                 </p>
                 <h1 class="Blog-SideHeading">
                     Dharamshala and McLeod Ganj: Spiritual Retreats
                 </h1>
                 <p class="Blog-Paragraph">
-                    Dharamshala and its twin town, McLeod Ganj, are spiritual retreats that attract visitors from around the world. McLeod Ganj is the residence of the Dalai Lama and the Tibetan government-in-exile. The town is a center for Tibetan culture and Buddhism, with monasteries, meditation centers, and Tibetan handicraft shops.<br/><br/>
-                    The Tsuglagkhang Complex, which includes the Dalai Lama's residence, a monastery, and a museum, is a place of tranquility and spiritual reflection. Visitors can attend teachings and meditation sessions, or simply enjoy the peaceful surroundings. The nearby Bhagsu Waterfall and the trek to Triund Hill are popular activities for those looking to explore the natural beauty of the region.
+                    Dharamshala and its twin town, McLeod Ganj, are spiritual retreats that attract visitors from around
+                    the world. McLeod Ganj is the residence of the Dalai Lama and the Tibetan government-in-exile. The
+                    town is a center for Tibetan culture and Buddhism, with monasteries, meditation centers, and Tibetan
+                    handicraft shops.<br /><br />
+                    The Tsuglagkhang Complex, which includes the Dalai Lama's residence, a monastery, and a museum, is a
+                    place of tranquility and spiritual reflection. Visitors can attend teachings and meditation
+                    sessions, or simply enjoy the peaceful surroundings. The nearby Bhagsu Waterfall and the trek to
+                    Triund Hill are popular activities for those looking to explore the natural beauty of the region.
                 </p>
                 <h1 class="Blog-SideHeading">
                     Kullu Valley: A Gateway to Adventure
                 </h1>
                 <p class="Blog-Paragraph">
-                    The Kullu Valley, also known as the "Valley of Gods," is a paradise for adventure enthusiasts. The Beas River, which flows through the valley, offers excellent opportunities for white-water rafting. The Great Himalayan National Park, a UNESCO World Heritage Site, is a haven for trekkers and wildlife enthusiasts, with its diverse flora and fauna.<br/><br/>
-                    During the winter months, the Kullu Valley transforms into a snowy wonderland, attracting visitors for skiing and snowboarding. The vibrant Kullu Dussehra festival, celebrated in October, is a major cultural event that showcases the rich traditions and customs of the region. The festival, with its processions, music, and dance, is a vibrant celebration of the valley's cultural heritage.
+                    The Kullu Valley, also known as the "Valley of Gods," is a paradise for adventure enthusiasts. The
+                    Beas River, which flows through the valley, offers excellent opportunities for white-water rafting.
+                    The Great Himalayan National Park, a UNESCO World Heritage Site, is a haven for trekkers and
+                    wildlife enthusiasts, with its diverse flora and fauna.<br /><br />
+                    During the winter months, the Kullu Valley transforms into a snowy wonderland, attracting visitors
+                    for skiing and snowboarding. The vibrant Kullu Dussehra festival, celebrated in October, is a major
+                    cultural event that showcases the rich traditions and customs of the region. The festival, with its
+                    processions, music, and dance, is a vibrant celebration of the valley's cultural heritage.
                 </p>
                 <h1 class="Blog-SideHeading">
                     Conclusion
                 </h1>
                 <p class="Blog-Paragraph">
-                    Himachal Pradesh, with its serene hill stations, adventurous landscapes, and spiritual retreats, is a destination that offers something for everyone. Whether you are seeking adventure, peace, or cultural immersion, this Himalayan paradise promises an unforgettable experience. Immerse yourself in the natural beauty and tranquility of Himachal Pradesh and discover the serenity that lies within its snow-capped peaks and lush valleys.
+                    Himachal Pradesh, with its serene hill stations, adventurous landscapes, and spiritual retreats, is
+                    a destination that offers something for everyone. Whether you are seeking adventure, peace, or
+                    cultural immersion, this Himalayan paradise promises an unforgettable experience. Immerse yourself
+                    in the natural beauty and tranquility of Himachal Pradesh and discover the serenity that lies within
+                    its snow-capped peaks and lush valleys.
                 </p>
-                <div class="col-12 mb-2">
-                    <div class="col-12 d-flex flex-row mt-5">
-                        <hr class="mt-4" />
-                        <h1 class="Featured-Blogs-Heading text-center">
-                            Thank You for Reading!
-                        </h1>
-                        <hr class="mt-4" />
-                    </div>
+                <div class="d-flex flex-row ml-auto">
+                    <i class="fa-solid fa-share mt-3 Blog-Share-Icons"></i>
+                    <h1 class="Blog-Share ml-2">
+                        SHARE
+                    </h1>
+                    <a href="#"><i class="fa-brands fa-facebook mt-3 ml-2 Blog-Share-Icons"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter mt-3 ml-2 Blog-Share-Icons"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest mt-3 ml-2 Blog-Share-Icons"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope mt-3 ml-2 Blog-Share-Icons"></i></a>
+                </div>
+            </div>
+            <div class="col-12 mb-2">
+                <div class="col-12 d-flex flex-row mt-5">
+                    <hr class="mt-4" />
+                    <h1 class="Featured-Blogs-Heading text-center">
+                        Thank You for Reading!
+                    </h1>
+                    <hr class="mt-4" />
                 </div>
             </div>
             <div class="col-12 col-md-6 mt-4 mb-3">
@@ -173,9 +209,181 @@
 
                 </div>
             </div>
+            <div class="col-12 mb-2">
+                <div class="col-12 d-flex flex-row mt-5">
+                    <hr class="mt-4" />
+                    <h1 class="Featured-Blogs-Heading text-center">
+                        You May Also Like
+                    </h1>
+                    <hr class="mt-4" />
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                <div class="Card-Container shadow">
+                    <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718573359/ksp_5760_n4mqj0.jpg"
+                        class="Card-Image" />
+                    <h1 class="Card-Heading pl-3 pt-4">
+                        Spiritual Journey to Varanasi
+                    </h1>
+                    <p class="Card-Paragraph Card-Date pl-3">
+                        <span class="Card-Bold">Date of Publication:</span> February 8, 2024
+                    </p>
+                    <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                        Experience the spiritual heart of India in Varanasi, where ancient rituals on the Ganges
+                        River unfold against a backdrop of historic temples.
+                        <a href="Varanasi.html" style="color:#008080">Read
+                            More...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                <div class="Card-Container shadow">
+                    <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718608519/virupaksha-6c15785977c1436_1_us8dj6.jpg"
+                        class="Card-Image" />
+                    <h1 class="Card-Heading pl-3 pt-4">
+                        Historical Splendor: Hampi
+                    </h1>
+                    <p class="Card-Paragraph Card-Date pl-3">
+                        <span class="Card-Bold">Date of Publication:</span>
+                        February 20, 2024
+                    </p>
+                    <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                        Step back in time in Hampi, a UNESCO World Heritage site renowned for its ancient temples,
+                        majestic ruins, and rich history.
+                        <a href="Hampi.html" style="color:#008080">Read
+                            More...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                <div class="Card-Container shadow">
+                    <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718572538/sourabh-shrikant-nilakhe-sYrTr4w42Pk-unsplash_sgiajt.jpg"
+                        class="Card-Image" />
+                    <h1 class="Card-Heading pl-3 pt-4">
+                        Golden Triangle: Delhi, Agra, Jaipur
+                    </h1>
+                    <p class="Card-Paragraph Card-Date pl-3">
+                        <span class="Card-Bold">Date of Publication:</span> March 21, 2024
+                    </p>
+                    <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                        Discover the cultural treasures of India's Golden Triangle, including the Taj Mahal,
+                        Jaipur's forts, and Delhi's bustling markets.
+                        Image: A majestic image of the Taj Mahal at sunrise or sunset.
+                        <a href="GoldenTriangle.html" style="color:#008080">Read
+                            More...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                <div class="Card-Container shadow">
+                    <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718607810/Mehrangarh-Fort_600-1280x720-1-2_xuw2wl.jpg"
+                        class="Card-Image" />
+                    <h1 class="Card-Heading pl-3 pt-4">
+                        Cultural Riches of Rajasthan
+                    </h1>
+                    <p class="Card-Paragraph Card-Date pl-3">
+                        <span class="Card-Bold">Date of Publication:</span> March 14, 2024
+                    </p>
+                    <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                        Immerse yourself in the cultural riches of Rajasthan, exploring its grand palaces, colorful
+                        festivals, and desert landscapes.
+                        <a href="Rajasthan.html" style="color:#008080">Read
+                            More...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                <div class="Card-Container shadow">
+                    <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718600027/10899393544_9be81b9df9_k_cred1o.webp"
+                        class="Card-Image" />
+                    <h1 class="Card-Heading pl-3 pt-4">
+                        Adventure in Ladakh: Land of High Passes
+                    </h1>
+                    <p class="Card-Paragraph Card-Date pl-3">
+                        <span class="Card-Bold">Date of Publication:</span> April 10, 2024
+                    </p>
+                    <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                        Embark on an adventure in Ladakh, exploring its rugged terrain, Buddhist monasteries, and
+                        breathtaking Himalayan landscapes.
+                        <a href="Ladakh.html" style="color:#008080">Read
+                            More...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                <div class="Card-Container shadow">
+                    <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718602382/Ranthambore-768x512_k93s6s.jpg"
+                        class="Card-Image" />
+                    <h1 class="Card-Heading pl-3 pt-4">
+                        Wildlife Safari in Ranthambore
+                    </h1>
+                    <p class="Card-Paragraph Card-Date pl-3">
+                        <span class="Card-Bold">Date of Publication:</span> April 25, 2024
+                    </p>
+                    <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                        Go on a wildlife safari in Ranthambore National Park, home to majestic Bengal tigers and
+                        diverse wildlife amidst ancient ruins.
+                        <a href="Ranthambore.html" style="color:#008080">Read
+                            More...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                <div class="Card-Container shadow">
+                    <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718568953/kunal-kalra-1OWl1_gtCZw-unsplash_rmvt18.jpg"
+                        class="Card-Image" />
+                    <h1 class="Card-Heading pl-3 pt-4">
+                        Exploring the Backwaters of Kerala
+                    </h1>
+                    <p class="Card-Paragraph Card-Date pl-3">
+                        <span class="Card-Bold">Date of Publication:</span> May 15, 2024
+                    </p>
+                    <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                        Cruise through the tranquil backwaters of Kerala, surrounded by lush greenery and
+                        traditional houseboats. <a href="Kerela.html" style="color:#008080">Read
+                            More...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                <div class="Card-Container shadow">
+                    <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1719304426/anjuna-beach-goa_pijnwv.jpg"
+                        class="Card-Image" />
+                    <h1 class="Card-Heading pl-3 pt-4">
+                        Beaches of Goa
+                    </h1>
+                    <p class="Card-Paragraph Card-Date pl-3">
+                        <span class="Card-Bold">Date of Publication:</span> May 3, 2024
+                    </p>
+                    <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                        Relax on the sun-kissed beaches of Goa, known for its Portuguese heritage, lively nightlife,
+                        and fresh seafood.
+                        <a href="Goa.html" style="color:#008080">Read
+                            More...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                <div class="Card-Container shadow">
+                    <img src="https://res.cloudinary.com/doxjkpn5a/image/upload/v1718602094/istockphoto-1433185911-612x612_wkf4oe.jpg"
+                        class="Card-Image" />
+                    <h1 class="Card-Heading pl-3 pt-4">
+                        Cultural Melting Pot: Mumbai
+                    </h1>
+                    <p class="Card-Paragraph Card-Date pl-3">
+                        <span class="Card-Bold">Date of Publication:</span> June 1, 2024
+                    </p>
+                    <p class="Card-Paragraph pl-3 pr-3 pb-2">
+                        Dive into the vibrant culture of Mumbai, with its Bollywood glamour, colonial architecture,
+                        and bustling street markets.
+                        <a href="Mumbai.html" style="color:#008080">Read
+                            More...</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="Footer-Section">
+    <div class="Footer-Section mt-3">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-4 mt-3">
@@ -234,4 +442,5 @@
     </div>
     <script src="Script.js"></script>
 </body>
+
 </html>
