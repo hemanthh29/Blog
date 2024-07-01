@@ -1,0 +1,27 @@
+.navbar{
+    background-color:transparent;
+}
+.AboutUs-Background{
+    height:40%;
+}
+.Footer-Section{
+    background-color: #2E8B8B;
+    height:60%;
+}
+.AboutUs-Container{
+    height:100vh;
+}
+.AboutUs-Heading{
+    font-family: ("Bree Serif", serif);
+    font-weight: bold;
+    color: #20B2AA;
+    font-size: 30px;
+}
+.AboutUs-Paragraph{
+    font-family: "Roboto", serif;
+    color: #D3D3D3;
+    font-size: 16px;
+}
+.navbar {
+    background-color: #2F4F4F;
+}
