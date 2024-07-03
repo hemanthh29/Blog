@@ -52,3 +52,4 @@ document.querySelector(".Comment-Form").addEventListener("submit", function(even
     document.getElementById("Blog-Comment-Email").value = "";
     document.getElementById("Blog-Comment").value = "";
 });
+//git
