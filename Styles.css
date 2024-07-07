@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
 }
@@ -51,7 +54,25 @@ body {
 .BG-Container-Button:hover {
     background-color: #8f8f8f;
 }
+.BG-Container-Button:active{
+    transform: translateY(2px);
+}
 
+@media (max-width: 768px) {
+    .BG-Container-Button:hover {
+        background-color: transparent;
+    }
+
+    .BG-Container-Description {
+        font-size: 16px;
+    }
+
+    .BG-Container-Button {
+        height: 40px;
+        width: 120px;
+        font-size: 16px;
+    }
+}
 .Featured-Blogs-Heading {
     font-family: "Bree Serif", serif;
     color: #008080;
