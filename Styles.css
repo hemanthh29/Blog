@@ -45,7 +45,7 @@ body {
     border-width: 2px;
     border-color: #ffffff;
     height: 50px;
-    width: auto;
+    width: 140px;
     font-size: 18px;
     outline: none !important;
     transition: background-color 0.6s ease;
@@ -61,16 +61,6 @@ body {
 @media (max-width: 768px) {
     .BG-Container-Button:hover {
         background-color: transparent;
-    }
-
-    .BG-Container-Description {
-        font-size: 16px;
-    }
-
-    .BG-Container-Button {
-        height: 40px;
-        width: 120px;
-        font-size: 16px;
     }
 }
 .Featured-Blogs-Heading {
