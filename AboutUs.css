@@ -1,27 +1,33 @@
-.navbar{
-    background-color:transparent;
+.navbar {
+    background-color: transparent;
 }
-.AboutUs-Background{
-    height:40%;
+
+.AboutUs-Background {
+    height: 40%;
 }
-.Footer-Section{
+
+.Footer-Section {
     background-color: #2E8B8B;
-    height:60%;
+    height: 60%;
 }
-.AboutUs-Container{
-    height:100vh;
+
+.AboutUs-Container {
+    height: 100vh;
 }
-.AboutUs-Heading{
-    font-family: ("Bree Serif", serif);
+
+.AboutUs-Heading {
+    font-family: "Bree Serif";
     font-weight: bold;
     color: #20B2AA;
     font-size: 30px;
 }
-.AboutUs-Paragraph{
-    font-family: "Roboto", serif;
+
+.AboutUs-Paragraph {
+    font-family: "Roboto";
     color: #D3D3D3;
     font-size: 16px;
 }
+
 .navbar {
     background-color: #2F4F4F;
 }

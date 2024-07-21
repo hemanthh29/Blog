@@ -3,82 +3,99 @@
     background-size: cover;
     height: 100vh;
 }
-.Blog-Image{
-    height:100%;
-    width:100%;
-    border-radius:12px;
+
+.Blog-Image {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
 }
-.Blog-Date{
-    font-family:"Roboto",serif;
-    font-size:12px;
+
+.Blog-Date {
+    font-family: "Roboto";
+    font-size: 12px;
     color: #6c757d;
 }
-.Blog-Share{
-    font-family:"Roboto",serif;
-    font-size:12px;
-    font-weight:bold;
+
+.Blog-Share {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
     color: #6c757d;
-    margin-top:18px;
-    color:#008080; 
+    margin-top: 18px;
+    color: #008080;
 }
-.Blog-Share-Icons{
-    color:#008080;
+
+.Blog-Share-Icons {
+    color: #008080;
 }
-.Blog-Line{
-    width:100%;
+
+.Blog-Line {
+    width: 100%;
 }
-.Blog-Paragraph{
-    font-family:"Roboto",serif;
-    font-size:20px;
-    color:#495057;
-    font-weight:normal;
+
+.Blog-Paragraph {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #495057;
+    font-weight: normal;
 }
-.Blog-SideHeading{
-    font-family:"Roboto",serif;
-    font-size:24px;
-    color:#343a40;
+
+.Blog-SideHeading {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #343a40;
 }
-.Comment-Heading{
-    font-family:"Roboto",serif;
-    font-weight:bold;
-    font-size:30px;
-    color:#008080;
+
+.Comment-Heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+    color: #008080;
 }
-.Button{
-    background-color:#008080;
-    color:#ffffff;
-    width:80px;
+
+.Button {
+    background-color: #008080;
+    color: #ffffff;
+    width: 80px;
 }
-.Comment-Box{
+
+.Comment-Box {
     background-color: #E8E8E8;
-    border-radius:12px;
+    border-radius: 12px;
 }
-.Comment-Form input, .Comment-Form textarea {
-    border-radius:8px;
-    outline:none;
-    border-style:solid;
-    border-width:1px;;
-    border-color:#ced4da;
+
+.Comment-Form input,
+.Comment-Form textarea {
+    border-radius: 8px;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    ;
+    border-color: #ced4da;
 }
-.AboutUs-List{
-    font-family:"Roboto",serif;
-    color:#495057;
-    font-size:22px;
-    font-weight:500;
+
+.AboutUs-List {
+    font-family: "Roboto";
+    color: #495057;
+    font-size: 22px;
+    font-weight: 500;
 }
-.Comment-Profile-Photo{
-    height:50px;
-    border-radius:12px;
+
+.Comment-Profile-Photo {
+    height: 50px;
+    border-radius: 12px;
 }
-.Comment-Text{
-    font-family:"Roboto",serif;
-    font-size:16px;
-    color:#495057;
-    margin-left:68px;
+
+.Comment-Text {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #495057;
+    margin-left: 68px;
 }
-.Comment-Name{
-    font-family:"Roboto",serif;
-    font-size:18px;
-    color:#495057;
-    font-weight:500;
+
+.Comment-Name {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #495057;
+    font-weight: 500;
 }

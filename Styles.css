@@ -19,21 +19,21 @@ body {
 }
 
 .Nav-Logo-Title {
-    font-family: "Bree Serif", serif;
+    font-family: "Bree Serif";
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
 }
 
 .BG-Container-Heading {
-    font-family: "Roboto", serif;
+    font-family: "Roboto";
     color: #ffffff;
     font-weight: bold;
     font-size: 50px;
 }
 
 .BG-Container-Description {
-    font-family: "Roboto", serif;
+    font-family: "Roboto";
     color: #ffffff;
     font-size: 18px;
 }
@@ -64,7 +64,7 @@ body {
     }
 }
 .Featured-Blogs-Heading {
-    font-family: "Bree Serif", serif;
+    font-family: "Bree Serif";
     color: #008080;
     font-weight: bold;
     font-size: 34px;
@@ -81,7 +81,7 @@ hr {
 }
 
 .Card-Heading {
-    font-family: ("Bree Serif", serif);
+    font-family: "Bree Serif";
     font-weight: bold;
     color: #006666;
     font-size: 24px;
@@ -92,13 +92,13 @@ hr {
 }
 
 .Card-Paragraph {
-    font-family: "Roboto", serif;
+    font-family: "Roboto";
     color: #696969;
     font-size: 16px;
 }
 
 .Card-Paragraph-2{
-    font-family: "Roboto", serif;
+    font-family: "Roboto";
     color: #696969;
     font-size: 18px;
     font-weight:bold;
@@ -118,13 +118,13 @@ hr {
     height: 100%;
 }
 .Footer-Heading{
-    font-family:"Bree Serif", serif;
+    font-family:"Bree Serif";
     color: #ffffff;
     font-size: 26px;
     font-weight: bold;
 }
 .Footer-Paragraph{
-    font-family:"Roboto", serif;
+    font-family:"Roboto";
     color:#D3D3D3;
     font-size:10px;
 }
@@ -135,7 +135,7 @@ hr {
     background-color:#F0F8FF;
 }
 .Footer-Card-Heading{
-    font-family:"Bree Serif", serif;
+    font-family:"Bree Serif";
     color:#333333;
     font-size:18px;
 }
